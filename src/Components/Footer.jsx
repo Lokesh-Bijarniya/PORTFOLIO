@@ -144,7 +144,7 @@ export default function Footer() {
 
       <div className="lg:w-1/2 mt-12 lg:mt-0">
         <img
-          src="src/assets/Footer.gif"
+          src="public/images/Footer.gif"
           alt=""
           className="h-44  mx-auto rounded-lg"
         />

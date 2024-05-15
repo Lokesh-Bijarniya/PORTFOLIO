@@ -11,7 +11,7 @@ export default function About() {
       <div className="lg:flex  w-full max-w-7xl mx-auto">
         <div className="w-full mt-12 lg:w-1/2 text-center lg:text-left flex lg:items-center">
           <img
-            src="src/assets/IMAGE.jpg"
+            src="public/Images/IMAGE.jpg"
             // height={'400'}
             // width={'300'}
             alt=""

@@ -11,7 +11,7 @@ export default function Work() {
 
       <div className="flex flex-wrap gap-6 justify-evenly items-center lg:p-12">
         <WorkCard
-          src={"src/assets/Techi.png"}
+          src={"public/images/Techi.png"}
           head={"Techispot"}
           description={
             "Explore the latest tech news, discover hilarious tech memes, and find inspiring projects on our platform, designed for tech enthusiasts like you."
@@ -27,7 +27,7 @@ export default function Work() {
           gitLink={"https://github.com/Lokesh-Bijarniya/TechiSpot"}
         />
         <WorkCard
-          src={"src/assets/quiz.png"}
+          src={"public/images/quiz.png"}
           head={"Quiz Application"}
           description={
             "Challenge yourself and test your knowledge with our interactive Quiz App, designed to make learning fun and engaging."
@@ -36,7 +36,7 @@ export default function Work() {
           gitLink={"https://github.com/Lokesh-Bijarniya/Quiz-App"}
         />
         <WorkCard
-          src={"src/assets/Notes.png"}
+          src={"public/images/Notes.png"}
           head={"Notes Application"}
           description={
             "Simplify your life with our intuitive notes app. Organize your thoughts, ideas, and to-do lists effortlessly."
