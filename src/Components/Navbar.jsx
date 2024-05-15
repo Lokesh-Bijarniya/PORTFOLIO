@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className="flex justify-between items-center bg-gray-950 text-white py-4 px-8 fixed top-0 w-full z-10">
       <div className="flex items-center">
         <img
-          src="public/Images/programming (2).png"
+          src="/Images/programming (2).png"
           alt=""
           className="h-12 w-12 mr-4 lg:relative left-32"
         />
