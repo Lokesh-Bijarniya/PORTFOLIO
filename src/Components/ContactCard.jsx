@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from 'prop-types';
 
 export default function ContactCard({ head, description, src, href }) {
   return (
@@ -13,3 +13,11 @@ export default function ContactCard({ head, description, src, href }) {
     </div>
   );
 }
+
+
+ContactCard.propTypes = {
+  src: PropTypes.string.isRequired,
+  head: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  href: PropTypes.string.isRequired
+};
