@@ -1,5 +1,4 @@
-import React from "react";
-
+import Tilt from "react-parallax-tilt";
 export default function About() {
   return (
     <div className="py-16 bg-black text-white " id="about">
@@ -8,18 +7,18 @@ export default function About() {
         A Passionate Developer Who <br /> Loves to Code
       </h1>
 
-      <div className="lg:flex  w-full max-w-7xl mx-auto">
-        <div className="w-full mt-12 lg:w-1/2 text-center lg:text-left flex lg:items-center">
-          <img
-            src="/Images/IMAGE.jpg"
-            // height={'400'}
-            // width={'300'}
-            alt=""
-            className="h-96  mx-auto lg:mx-0 lg:ml-20 rounded-lg shadow-2xl shadow-yellow-800 hover:scale-110 hover:-translate-y-2 hover:rotate-x-12 transform transition duration-500 ease-in-out"
-          />
+      <div className="lg:flex w-full max-w-7xl lg:mx-0 mx-auto">
+        <div className="w-full mt-12 lg:w-1/2 text-center lg:text-left flex lg:items-center justify-center">
+          <Tilt>
+            <img
+              src="/Images/IMAGE.jpg"
+              alt=""
+              className="h-96 mx-auto lg:mx-0 lg:ml-20 rounded-lg shadow-2xl shadow-yellow-800"
+            />
+          </Tilt>
         </div>
 
-        <div className="w-full lg:w-1/2 text-white pt-12 lg:mt-0">
+        <div className="w-full lg:w-1/2 text-white pt-12 lg:mt-0 lg:ml-24">
           <h1 className="text-4xl my-6 text-center lg:text-left">About Me</h1>
 
           <div className="text-2xl text-gray-400 font-light px-6 lg:px-0">
