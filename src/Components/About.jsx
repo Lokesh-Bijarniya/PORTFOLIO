@@ -83,7 +83,7 @@ export default function About() {
           <div className="text-center lg:text-left">
             <button className="bg-green-500 p-2 px-6 text-2xl rounded-full hover:scale-110 hover:-translate-y-2 hover:rotate-x-12 transform transition duration-500 ease-in-out">
               <a
-                href="https://drive.google.com/file/d/1kqCZukZPa_F7glBhC4V2hXVB_O7tXX0X/view?usp=sharing"
+                href="https://drive.google.com/file/d/1oTV7UbSQHllgKTqG0AJebNlvQswE8OTA/view?usp=sharing"
                 target="_blank"
               >
                 Resume
